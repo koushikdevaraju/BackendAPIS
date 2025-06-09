@@ -1,0 +1,4 @@
+name,email,password,address,phoneNumber,userType,role,IHINumber,dateOfBirth
+bobmorgan,morgan@gmail.com,college,banglore,913838907654,Staff,Admin,,09-09-1889
+alaceman,alacenab@gmail.com,12345,mysore,1234567890,Staff,Admin,,08-09-2000
+gredy,gredy@gmail.com,903393,mysore,913838907657,Staff,Admin,,

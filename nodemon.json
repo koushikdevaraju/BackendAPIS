@@ -1,0 +1,7 @@
+{
+  "env": {
+    "MONGO_DB_URL_CONNECT": "mongodb://127.0.0.1:27017/mydb",
+    "JWTPrivateKey": "tiger",
+    "PORT": 3000
+  }
+}
