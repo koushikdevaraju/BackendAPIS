@@ -391,7 +391,7 @@ async function createDependent(req, findParent) {
     return await newDependent.save();
 }
 
-// welcome one board
+// welcome one board new Route to backEnd
 
 
 module.exports = router;
