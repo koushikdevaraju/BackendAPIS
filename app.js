@@ -30,6 +30,7 @@ const dummmyProducts = require('./routes/dummyProducts');
 const employee = require('./routes/employee');
 const department = require('./routes/department');
 const bankUser = require('./routes/bankuser');
+const globalProducts = require('./routes/globalProducts');
 
 app.use((req, res, next) => {
     console.log(`${req.method} ${req.url} ${res.statusCode}`);
@@ -65,6 +66,7 @@ app.use('/bill', bill);
 app.use('/employee', employee);
 app.use('/department', department);
 app.use('/bankUser', bankUser);
+app.use('/globalProducts', globalProducts);
 // app.use('/', shop);
 
 
